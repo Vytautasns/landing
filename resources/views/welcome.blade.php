@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Vytautas Narkevičius</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!-- Styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                color: #232323;
+                font-family: 'Merriweather', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -45,13 +46,14 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 6em;
             }
 
             .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
+                display: inline-block;
+                color: #232323;
+                padding: 20px 25px;
+                font-size: 16px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -61,7 +63,29 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .animated {
+                -webkit-animation-duration: 2.6s;
+                animation-duration: 2.6s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+            }
+
+            @media only screen and (max-width: 600px) {
+                .title {
+                    font-size: 3em;
+                }
+            }
         </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136072263-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-136072263-1');
+        </script>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -80,18 +104,15 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-md animated fadeInDown">
+                    Vytautas Narkevičius
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="links animated fadeInUp">
+                    <a href="https://github.com/vytautasns"> <i class="fab fa-github"></i> Github</a>
+                    <a href="https://fb.me/vytautasns"> <i class="fab fa-github"></i> Facebook</a>
+                    <a href="https://www.linkedin.com/in/vytautas-narkevicius-3000/"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:vytautasns@gmail.com"> <i class="fas fa-at"></i> Email</a>
                 </div>
             </div>
         </div>
