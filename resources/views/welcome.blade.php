@@ -60,6 +60,13 @@
                 text-transform: uppercase;
             }
 
+            .footer {
+                position: absolute;
+                bottom: 30px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -74,6 +81,9 @@
             @media only screen and (max-width: 600px) {
                 .title {
                     font-size: 3em;
+                }
+                .links > a {
+                    display: block;
                 }
             }
         </style>
@@ -114,6 +124,9 @@
                     <a href="https://www.linkedin.com/in/vytautas-narkevicius-3000/"> <i class="fab fa-linkedin"></i> LinkedIn</a>
                     <a href="mailto:vytautasns@gmail.com"> <i class="fas fa-at"></i> Email</a>
                 </div>
+            </div>
+            <div class="footer animated fadeIn">
+                <i class="fas fa-code-branch"></i> {{ now()->year }}
             </div>
         </div>
     </body>
