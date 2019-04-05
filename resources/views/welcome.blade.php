@@ -58,6 +58,11 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                transition: opacity 1s ease;
+            }
+
+            .links > a:hover {
+                opacity: .6;
             }
 
             .footer {
