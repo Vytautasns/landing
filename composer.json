@@ -1,11 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "vytautasns/landing",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": [
-        "framework",
-        "laravel"
-    ],
+    "description": "Simple personal landing page",
+    "keywords": [],
     "license": "MIT",
     "require": {
         "php": "^7.1.3",
